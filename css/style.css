@@ -45,15 +45,15 @@ body{
 	padding: 0 0 5%;
 	font-weight: 300;
 }
-#hero h3{
+#hero h1{
 	font-size: 45px;
 	color: var(--color-titulos);
-	font-weight: 600;
+	font-weight: 700;
 	padding: 10% 0 2% 0;
 }
-#hero p{
+#hero h4{
 	color: var(--color-titulos);
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 300;
 	margin-right: 20%;
 	margin-bottom: 40px;
@@ -61,8 +61,32 @@ body{
 #hero i{
 	color: var(--color-rojo);
 }
+
+header .btn-rojo{
+	margin: 0;
+}
+
+.btn-hero{
+	border: 1px solid var(--color-rojo);
+	border-radius: 30px;
+	background-color: var(--color-rojo);
+	color: #fff;;
+	font-size: 12px;
+	margin-right: 1%;
+	padding: 10px 20px;
+}
+
+button{
+	padding: 10px 20px;
+	border: 1px solid var(--color-rojo);
+	border-radius: 30px;
+	background-color: var(--color-features2);
+	color: var(--color-rojo);
+	font-size: 12px;
+}
 #hero img{
 	padding-top: 30%;
+	padding-right: 20%;
 }
 
 #features{
@@ -119,24 +143,37 @@ font-weight: 700;
 	padding: 10% 0 10%;
 }
 
+#features2 img{
+	padding-right: 18%;
+}
+
 #features2 h4{
 	color: var(--color-letragris);
-	font-size: 30px;
+	font-size: 28px;
 	font-weight: 700;
 	padding-bottom: 10px;
 }
 	
-#features2 h5{
+.stylish{
 	background-color: var(--color-rojo);
 	padding: 10px 20px;
-	margin-right: 56%;
+	margin-right: 50%;
 	color: #fff;
+	font-size: 18px;
 	font-weight: 200;
 }
 
-.be-creative{
+.creativeyellow{
 	background-color: var(--color-amarillo)!important;
-	margin-right: 78% !important;
+	padding: 10px 20px;
+	margin-right: 70%;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 200;
+}
+
+#features2 p{
+	margin-right: 13%;
 }
 
 #features2 p{
@@ -163,44 +200,84 @@ font-weight: 700;
 	padding-right: 20px;
 }
 
-#download{
-	background-color: var(--fondo-download);
-	text-align: center;
-	color:#fff;
-	padding: 5% 0;
+#available{
+	background-color: var(--color-rojo);
+	color: #fff;
+	text-align: right;
+	margin-bottom: -7%;
 }
 
-#download h2{
-	font-size: 90px;
+#available img{
+	padding-left: 30%;
+	margin-top: -24%;
+}
+
+.available{
+	padding-top: 15%;
 	font-weight: 700;
-	text-transform: uppercase;
 }
 
-#download h3{
-	font-size: 40px;
-	font-weight: 500;
-	margin-top: 30%;
+.available2{
+	padding-top: 15%;
+	font-weight: 400;
 }
 
-#download p{
-	margin-top: 2%;
-	font-size: 16px;
+#available h4, h3{
+	font-size: 26px;
+}
+
+#available h4{
+	padding-bottom: 3%;
 }
 
 #form{
-	background-color: var(--color-letragris);
+	background-color: #424141;
 	padding-left: 20%;
 	padding-right: 20%;
+	padding-bottom: 6%;
+	padding-top: 10%;
+	align-content: center;
+}
+
+label{
+	color: var(--color-rojo);
+	text-align: center;
+	padding-top: 3%;
 }
 
 .form-control{
-	background-color: var(--color-letragris);
-	border-bottom-color: crimson;
+	background-color: #424141;
+	border-bottom-color: var(--color-rojo);;
 	border-top: none;
 	border-left: none;
 	border-right: none;
 	border-radius: 0;
+	color: #fff;
 }
+.form-control:enabled{
+	background-color: #424141;
+	border-bottom-color: var(--color-rojo);;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 0;
+	color: #fff;
+	
+}
+
+.btn-rojo{
+	color: #fff;
+	background-color: var(--color-rojo);;
+	text-align: center;
+	border-radius: 30px;
+    margin-left: 43%;
+	font-size: 13px;
+	font-weight: 600;
+	border: none;
+	margin-right: 50%;
+	margin-top: 3%;
+}
+
 
 footer{
 	background-color: var(--fondo-header);
@@ -210,10 +287,44 @@ footer{
 	font-weight: 700;
 }
 
-.texto.rojo{
-	color: var(--color-rojo);
+footer h6{
+	font-weight: 600;
+	font-size: 13px;
 }
 
+footer p{
+	font-weight: 500;
+	font-size: 11px;
+	padding-top: 1%;
+	font-style: italic;
+}
+
+.la-facebook-f{
+	font-size: 18px;
+	color: #fff;
+	border-radius: 100%;
+	border: solid 1.5px #fff;
+	padding: 20%;
+	margin: 3%;
+}
+
+.la-instagram{
+	font-size: 18px;
+	color: #fff;
+	border-radius: 100%;
+	border: solid 1.5px #fff;
+	padding: 20%;
+	margin: 3%;
+}
+
+.la-twitter{
+	font-size: 18px;
+	color: #fff;
+	border-radius: 100%;
+	border: solid 1.5px #fff;
+	padding: 20%;
+	margin: 3%;
+}
 
 
 
