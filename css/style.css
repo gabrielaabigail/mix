@@ -189,11 +189,29 @@ font-weight: 700;
 
 #form{
 	background-color: var(--color-letragris);
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 .form-control{
 	background-color: var(--color-letragris);
-	border: solid 0;
+	border-bottom-color: crimson;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 0;
+}
+
+footer{
+	background-color: var(--fondo-header);
+	color: #fff;
+	text-align: center;
+	padding: 3%;
+	font-weight: 700;
+}
+
+.texto.rojo{
+	color: var(--color-rojo);
 }
 
 
